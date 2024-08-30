@@ -1,0 +1,78 @@
+/*Main Background Colour */
+body {
+  background-color: azure;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  padding-top: 0%;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* Remove nav ul list */
+.removelist {
+  list-style-type: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+h3,
+h4 {
+  color: rgb(12, 28, 43);
+}
+
+.copy {
+  text-align: center;
+}
+
+button {
+  background-color: #0ff09d;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+}
+/* Table Section */
+
+table {
+  padding-top: auto;
+  width: 1300px;
+}
+.tablehead {
+  background-color: rgb(219, 240, 252);
+  line-height: 50px;
+  text-size-adjust: 20px;
+}
+
+.tablebody {
+  background-color: rgb(230, 235, 253);
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Music Section */
+
+picture {
+  padding-top: 20px;
+  padding-left: 50x;
+}

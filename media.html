@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Akinwale Idowu</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./main.css"/>
+  </head>
+  <body>
+    <!--My Header Page -->
     <header>
-        <nav>
-          <a href="./index.html">Home</a>
-          <a href="./form.html">Application Form</a>
-          <a href="./table.html">Alt School Programs</a>
-          <a href="./media.html">Media Element</a>
-        </nav>
-      </header>
-    
+      <!--My Navigation Page-->
+      <nav class="topnav">
+        <ul class = "removelist">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./form.html">Application Form</a></li>
+          <li><a href="./table.html">Alt School Programs</a></li>
+          <li><a href="./media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+  <body>
+     <!-- Profile picture section -->
+     <section>
+      <picture>
+        <!-- Responsive image sources for different screen sizes -->
+        <source srcset="asset/images/pic-200.jpg" media="(max-width: 200px)" />
+        <source srcset="asset/images/pic-800.jpg" media="(min-width: 800px)" />
+        <source srcset="asset/images/pic-600.jpg" media="(min-width: 600px)" />
+        
+        <img
+          src="asset/images/pic.jpg" alt="A picture of me"
+        />
+      </picture>
+    </section>
+
+    <!-- Section for explaining frontend software engineering -->
+    <section>
+      <h2>What is Cloud Engineering</h2>
+      <p>
+        Cloud engineering is the application of engineering disciplines to cloud computing. 
+        It brings a systematic approach to concerns of commercialization, standardization, 
+        and governance of cloud computing applications. In practice, it leverages the methods 
+        and tools of engineering in conceiving, developing, operating and maintaining cloud computing 
+        systems and solutions. It is about the process of designing the systems necessary to leverage
+         the power and economics of cloud resources to solve business problems
+      </p>
+      <!-- Video explaining cloud engineering -->
+      <video width="700" height="400" controls>
+        <source src="asset/videos/Cloud Engineer.mp4" type="video/mp4" />
+        <source src="asset/videos/frontend-video-2.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Section for background music -->
+    <section>
+      <h2>Background Music</h2>
+      <p>
+        Listen to this intro music while reading the rest of the
+        content.
+      </p>
+      <audio controls>
+        <source src="asset/audios/alan-amjad.mp3" type="audio/ogg" />
+        <source src="asset/audios/town.mp3"/>
+      </audio>
+    </section>  
 </body>
 </html>
